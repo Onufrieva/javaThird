@@ -1,0 +1,1521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="proect:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ba2513d6-aee1-4bfc-839c-f1de2aa8138d" name="Default Changelist" comment="mnyauch">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/proect_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/0b5b4eca-efde-45eb-861f-727a3d90aab2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/1f46bb8d-8f94-4a37-a3d3-d6bc9d19a3fc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proect.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/AuthUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/commands/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/commands/DefaultCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/commands/GoToAccessDeniedCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/commands/GoToAdminCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/commands/GoToIndexCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/commands/GoToNewFilmCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/commands/GoToRegistrationCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/commands/GoToUserCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/commands/LoginCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/commands/LogoutCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/commands/NewFilmCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/commands/RegistrationCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/filter/AccessFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/dao/DaoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/dao/FilmDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/dao/GenericDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/dao/ScheduleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/dao/TicketDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/dao/mysql/JDBCDaoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/dao/mysql/MySQLConnectionPoolHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/dao/mysql/MySQLFilmDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/dao/mysql/MySQLScheduleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/dao/mysql/MySQLTicketDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/dao/mysql/MySQLUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/dao/mysql/update/FilmFilterStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/dao/mysql/update/FilmWeekdayFilterStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/dao/mysql/update/NoFilterStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/dao/mysql/update/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/dao/mysql/update/Update.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/dao/mysql/update/WeekdayFilterStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/dto/ScheduleListDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/dto/TicketListDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/entity/Film.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/entity/Schedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/entity/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/service/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/service/AuthorizationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sql.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sql_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sql_ua.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/strings.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/strings_EN.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/strings_UA.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/admin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/newfilm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/newschedule.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/booking.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/mytickets.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/selectschedule.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/simple-sidebar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/registration.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/jquery/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/jquery/jquery.slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/jquery/jquery.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/jquery/jquery.slim.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/AuthUtility.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/Servlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/commands/Command.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/commands/DefaultCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/commands/GoToAccessDeniedCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/commands/GoToAdminCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/commands/GoToIndexCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/commands/GoToNewFilmCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/commands/GoToRegistrationCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/commands/GoToUserCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/commands/LoginCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/commands/LogoutCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/commands/NewFilmCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/commands/RegistrationCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/filter/AccessFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/dao/DaoFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/dao/FilmDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/dao/GenericDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/dao/ScheduleDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/dao/TicketDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/dao/mysql/JDBCDaoFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/dao/mysql/MySQLConnectionPoolHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/dao/mysql/MySQLFilmDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/dao/mysql/MySQLScheduleDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/dao/mysql/MySQLTicketDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/dao/mysql/MySQLUserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/dao/mysql/update/FilmFilterStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/dao/mysql/update/FilmWeekdayFilterStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/dao/mysql/update/NoFilterStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/dao/mysql/update/Strategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/dao/mysql/update/Update.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/dao/mysql/update/WeekdayFilterStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/dto/ScheduleListDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/dto/TicketListDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/entity/Film$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/entity/Film.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/entity/Schedule$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/entity/Schedule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/entity/Ticket$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/entity/Ticket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/entity/User$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/entity/User$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/entity/User$ROLE.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/service/AdminService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/service/AuthorizationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sql.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sql_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sql_ua.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/strings.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/strings_EN.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/strings_UA.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/controller/AuthUtility.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/controller/Servlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/controller/commands/Command.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/controller/commands/DefaultCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/controller/commands/GoToAccessDeniedCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/controller/commands/GoToAdminCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/controller/commands/GoToIndexCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/controller/commands/GoToNewFilmCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/controller/commands/GoToRegistrationCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/controller/commands/GoToUserCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/controller/commands/LoginCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/controller/commands/LogoutCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/controller/commands/NewFilmCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/controller/commands/RegistrationCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/controller/filter/AccessFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/model/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/model/dao/DaoFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/model/dao/FilmDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/model/dao/GenericDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/model/dao/ScheduleDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/model/dao/TicketDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/model/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/model/dao/mysql/JDBCDaoFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/model/dao/mysql/MySQLConnectionPoolHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/model/dao/mysql/MySQLFilmDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/model/dao/mysql/MySQLScheduleDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/model/dao/mysql/MySQLTicketDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/model/dao/mysql/MySQLUserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/model/dao/mysql/update/FilmFilterStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/model/dao/mysql/update/FilmWeekdayFilterStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/model/dao/mysql/update/NoFilterStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/model/dao/mysql/update/Strategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/model/dao/mysql/update/Update.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/model/dao/mysql/update/WeekdayFilterStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/model/dto/ScheduleListDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/model/dto/TicketListDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/model/entity/Film$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/model/entity/Film.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/model/entity/Schedule$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/model/entity/Schedule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/model/entity/Ticket$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/model/entity/Ticket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/model/entity/User$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/model/entity/User$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/model/entity/User$ROLE.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/model/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/model/service/AdminService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/model/service/AuthorizationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/sql.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/sql_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/sql_ua.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/strings.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/strings_EN.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/classes/strings_UA.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/lib/commons-codec-1.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/lib/commons-dbcp-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/lib/commons-pool-1.5.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/lib/log4j-api-2.9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/lib/log4j-core-2.9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/lib/mysql-connector-java-5.1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/view/admin/admin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/view/admin/newfilm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/view/admin/newschedule.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/view/user/booking.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/view/user/mytickets.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/view/user/selectschedule.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/view/user/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/css/simple-sidebar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/registration.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/vendor/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/vendor/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/vendor/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/vendor/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/vendor/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/vendor/jquery/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/vendor/jquery/jquery.slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/vendor/jquery/jquery.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcatTemplate/vendor/jquery/jquery.slim.min.map" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="kino@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="kino@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="kino@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="kino: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="kino@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="kino: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="film: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="kino@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="kino: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="schedule: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="kino@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="kino: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="users: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="kino@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="kino: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="weekday: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/GenericDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="14" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/entity/Film.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#430#431#0" expanded="true" />
+                <element signature="e#461#462#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/FilmDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/entity/Schedule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/mysql/MySQLTicketDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/entity/Ticket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/entity/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/mysql/MySQLScheduleDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="52" column="70" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1559918340019" expanded="true" signature="268:4864" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/mysql/MySQLConnectionPoolHolder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/mysql/MySQLFilmDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="45" column="53" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>log</find>
+      <find>LOG_OUT</find>
+      <find>/servlet/lo</find>
+      <find>Parameter(&quot;login&quot;</find>
+      <find>hallname</find>
+      <find>halladdress</find>
+      <find>EXHIBITION</find>
+      <find>newhall</find>
+      <find>newexhib</find>
+      <find>selectexhib</find>
+      <find>isEx</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/model/dao/mysql/MySQLUserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/commands/DefaultCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/service/AuthorizationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/commands/LoginCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/commands/LogoutCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/commands/RegistrationCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/dao/mysql/MySQLConnectionPoolHolder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/dao/ScheduleDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/entity/Ticket.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/entity/Film.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/dto/TicketListDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/dto/ScheduleListDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/dao/mysql/update/Strategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/dao/mysql/update/Update.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/dao/TicketDao.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/src/main/java/model/entity/Schedule.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/dao/mysql/MySQLTicketDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/service/AdminService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/dao/FilmDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/dao/mysql/JDBCDaoFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/dao/DaoFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/dao/mysql/MySQLFilmDao.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/newcat.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/model/dao/mysql/update/FilmWeekdayFilterStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/dao/mysql/update/WeekdayFilterStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/dao/mysql/update/FilmFilterStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/dao/mysql/update/NoFilterStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/user.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/model/dao/mysql/MySQLScheduleDao.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/selectexhibition.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/sql_ua.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/sql_en.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/sql.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/booking.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/mytickets.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/commands/GoToNewFilmCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/newexhibition.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/newhall.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/filter/AccessFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/Servlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/newschedule.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/admin.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/AuthUtility.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/strings.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/strings_UA.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/strings_EN.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/commands/NewFilmCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/newfilm.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/registration.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-3" />
+    <option name="width" value="1369" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="proect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proect" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proect" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proect" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proect" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proect" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="commands" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proect" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proect" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proect" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proect" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="mysql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proect" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="mysql" type="462c0819:PsiDirectoryNode" />
+              <item name="update" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proect" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proect" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proect" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proect" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proect" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Resource Bundle 'sql'" type="a6c14932:ResourceBundleNode" />
+            </path>
+            <path>
+              <item name="proect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proect" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proect" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proect" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proect" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proect" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proect" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap.css" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="proect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proect" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proect" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap.bundle.js" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="proect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proect" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap.js" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="proect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proect" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="jquery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proect" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proect" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proect" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proect" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Nastia\proect\src\main\webapp\css" />
+      <recent name="D:\Nastia\proect\src\main\webapp" />
+      <recent name="D:\Nastia\proect\src\main\resources" />
+      <recent name="D:\Nastia\proect\src\main\webapp\WEB-INF" />
+      <recent name="D:\Nastia\proect\src\main" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.20" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.20" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="proect:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_proect" />
+        <option name="HTTP_PORT" value="8089" />
+        <option name="JNDI_PORT" value="1098" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="15511" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="proect:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ba2513d6-aee1-4bfc-839c-f1de2aa8138d" name="Default Changelist" comment="" />
+      <created>1559594460186</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559594460186</updated>
+      <workItem from="1559594474848" duration="11649000" />
+      <workItem from="1559654781441" duration="7287000" />
+      <workItem from="1559666627093" duration="25778000" />
+      <workItem from="1559892993876" duration="21253000" />
+      <workItem from="1559983286041" duration="4169000" />
+      <workItem from="1559993083450" duration="3678000" />
+      <workItem from="1559998242903" duration="614000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="74428000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2980333" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3267974" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.04901961" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.04901961" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.04901961" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32843137" />
+      <window_info anchor="bottom" id="Database Console" order="8" weight="0.32843137" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32843137" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="JSF" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="CDI" order="7" />
+      <window_info anchor="right" id="Database" order="8" visible="true" weight="0.18078668" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31451613" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32718122" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.05033557" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.04901961" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.04901961" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32843137" />
+      <window_info anchor="bottom" id="Database Console" order="8" weight="0.32843137" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32843137" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="JSF" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="CDI" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.5939005" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="mnyauch" />
+    <option name="LAST_COMMIT_MESSAGE" value="mnyauch" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>request.getSession().getAttribute(&quot;login&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>request.getSession()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>request.getParameter(&quot;user&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>request.getParameter(&quot;login&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/mysql/update/WeekdayFilterStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/commands/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/commands/DefaultCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/mysql/update/FilmFilterStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/mysql/update/FilmWeekdayFilterStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/mysql/update/NoFilterStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/mysql/update/Update.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/TicketDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/mysql/JDBCDaoFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/DaoFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/service/AdminService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-70">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/newcat.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sql_ua.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/filter/AccessFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="93" column="46" lean-forward="true" selection-start-line="93" selection-start-column="46" selection-end-line="93" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/booking.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/mytickets.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/selectschedule.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2125">
+          <caret line="125" column="47" selection-start-line="125" selection-start-column="47" selection-end-line="125" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/user.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/mysql/MySQLUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/commands/LogoutCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/AuthUtility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="53" column="55" selection-start-line="53" selection-start-column="55" selection-end-line="53" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/ScheduleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/dto/ScheduleListDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/dto/TicketListDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/commands/GoToNewFilmCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Servlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="46" column="50" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/strings_UA.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/strings_EN.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/commands/NewFilmCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1f46bb8d-8f94-4a37-a3d3-d6bc9d19a3fc/schema/kino/table/film">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/commands/RegistrationCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="33" column="11" lean-forward="true" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sql.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/strings.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/newfilm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/newschedule.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="136" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/admin.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/registration.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/service/AuthorizationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/GenericDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/entity/Film.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/FilmDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/entity/Schedule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/mysql/MySQLTicketDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/entity/Ticket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/mysql/MySQLScheduleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="52" column="70" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1559918340019" expanded="true" signature="268:4864" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/mysql/MySQLFilmDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="45" column="53" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/mysql/MySQLConnectionPoolHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>proect</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
